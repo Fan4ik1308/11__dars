@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    padding-top: 50px;
+}
+.container{
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header__btn{
+    width: 243px;
+    background-color: #009FF5;
+    padding: 5px 0 5px 5px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0 #DAD3FF;
+}
+.header__link{
+    color: #D5D5D6;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px  #DAD3FF;
+    text-decoration: none;
+}
+select{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-shadow: 0px 4px 4px  #DAD3FF;
+    font-size: 20px;
+    color: #D5D5D6;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sss{
+    box-sizing: border-box;
+    border: 11px solid rgb(90, 85, 85);
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(255, 198, 17);
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__box{
+    align-items: center;
+}
+.hero__name{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 36px;
+    text-shadow: 0px 4px 4px yellow;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0%;
+}
+.info{
+    box-shadow: 0px 4px 18px 6px 0px rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    padding-bottom: 60px;
+}
+.text{
+    color: rgb(90, 85, 85);
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0%;
+    padding-top: 50px;
+    text-align: left;
+    text-shadow: 0px 4px 4px gold;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.btn{
+    box-shadow: 0px 7px 12 8px 0px rgb(255, 255, 255) ;
+    background: rgb(83,83,83);
+    width: 278px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    padding: 10px 0;
+}
+.uzb{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 58px;
+
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.textbox{
+    width: 663px;
+}
+.suxrobhaker{
+ box-shadow: 0px 7px 12.8px 6px rgb(255, 255, 255);
+ background: rgb(255, 194,0);
+}
+.fut{
+    background: rgb(255, 198, 17);
+}
+.bot{
+    justify-content: space-between;
+}
